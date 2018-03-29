@@ -1,5 +1,4 @@
-<html>
-  <body>
+<body>
   
 <B>Git操作筆記</B><br>
 
@@ -72,4 +71,3 @@ https://backlog.com/git-tutorial/tw/<br>
 https://blog.longwin.com.tw/2009/05/git-learn-initial-command-2009/<br>
 https://git-scm.com/book/zh-tw/v2<br>
   </body>
-</html>
