@@ -25,5 +25,5 @@
 
 >**使用方法**  
 >>在主頁面上自訂要傳送的request和URL，送出後立即就能取得API回傳的結果。  
->>收到的回傳結果能以不同資料格式的顯示: JSON,XML,HTML,Text,Auto
->>也可以以不同的模式顯示: Pretty,Raw,Preview
+>>收到的回傳結果能以不同資料格式的顯示: JSON,XML,HTML,Text,Auto  
+>>也可以以不同的模式顯示: Pretty,Raw,Preview  
