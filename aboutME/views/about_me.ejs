@@ -1,79 +1,79 @@
 <!doctype html>
 
 <html>
-
     <head>
         <meta charset="utf-8">
         <title>ST2DE/week1_homework/aboutDONNA</title>
-
-        <style>
-            /*CSS code 放在這邊*/
-
-            body {
-                background-image: url(https://c.pxhere.com/photos/50/60/paper_wrinkled_white_cute_texture_effect_whatsapp-908677.jpg!d);
-                background-size: 100%;
-            }
-
-            header {
-                background-color: rgba(253, 253, 253, 0.603);
-                height: 100px;
-                width: 100%;
-                float: left;
-                text-align: right;
-                margin-top: 20px;
-            }
-
-            menu {
-                background-color: rgba(253, 253, 253, 0.603);
-                height: 700px;
-                width: 25%;
-                float: right;
-                margin-top: 50px;
-            }
-
-            content {
-                background-color: rgba(253, 253, 253, 0.603);
-                height: 700px;
-                width: 70%;
-                float: right;
-                margin-top: 50px;
-                margin-right: 50px;
-            }
-            
-        </style>
-
+        <link rel="stylesheet" href="../public/about_me.css">
     </head>
-
     <body>
+        <body background="https://c.pxhere.com/photos/50/60/paper_wrinkled_white_cute_texture_effect_whatsapp-908677.jpg!d" style="background-attachment:fixed; background-size: cover;"></body>
 
-        <header><h1>title</h1></header>
+        <div class="container_left">
+            <div class="leftCard" style="background: rgba(255, 81, 81, 0.781);">
+                <p class="title">我是誰？</p>
+            </div>
 
-        <menu>
-            1<br>
-            2<br>
-            3<br>
-        </menu>
-                
-        <content>text</content>
+            <div class="leftCard">
+                <p class="text">
+                    目前住在新竹<br>
+                    還是個學生~<br>
+                    在清大當肝苦研究生。<br>
+                    平常就是沒日沒夜地看paper RRRRRRR
+                </p>
+            </div>
 
+            <div class="leftCard" style="background: rgba(81, 255, 139, 0.781)">
+                <p class="title" style="font-size: 60px;">為什麼參加計劃？</p>
+            </div>
 
+            <div class="leftCard">
+                <p class="text">
+                    第一階段還OK<br>
+                    但到了第二階段突然難度大增!?<br>
+                    發現第一階段學的都還回去了QQ<br>
+                    觀念還不太清楚，需要再多努力一點~<br>
+                    還有覺得學到滿多實用的東西（例如git），都是一些工作會用到的東西，<br>很好！
+                </p>
+            </div>
 
-        <script>
-            /*JavaScript code 放在這邊*/
-            /*
-            for (var i = 0; i < images.length; i++) {
-                var image = images[i], width = String(image.currentStyle.width);
-                if (width.indexOf('%') == -1) {
-                    continue; }
-                image.origWidth = image.offsetWidth;
-                image.origHeight = image.offsetHeight;
-                imgCache.push(image);
-                c.ieAlpha(image); image.style.width = width;
-            }
-            */
-            
-        </script>
-        
+            <div class="leftCard" style="background: rgba(113, 81, 255, 0.781)">
+                <p class="title">未來展望</p>
+            </div>
+        </div>
+
+        <div class="container_right">
+            <div class="rightCard">
+                <img src="https://scontent.ftpe7-2.fna.fbcdn.net/v/t1.0-9/17201238_10210278138861315_5037274531982405631_n.jpg?_nc_fx=ftpe7-3&_nc_cat=0&oh=099e102c7610682f8f48585dde2ca61c&oe=5B5C0CD6" width="300" height="300"/>
+                <p class="text" style="position: absolute; right:24%; top:32%;">
+                    羅玉榮<br>Donna Law
+                </p>
+            </div>
+
+            <div class="rightCard" style="background: rgba(255, 243, 81, 0.781)";>
+                <p class="title">我是幹嘛的？</p>
+            </div>
+
+            <div class="rightCard">
+                <p class="text">
+                    <del>因為我很愛不務正業！</del><br>
+                    算是有興趣吧～<br>
+                    但又不確定自己是不是真的喜歡，所以想要試試看。<br>
+                    也想看看未來能不能靠這個吃飯<br>（自以為）哈哈
+                </p>
+            </div>
+
+            <div class="rightCard" style="background: rgba(81, 156, 255, 0.781)">
+                <p class="title">到目前的心得</p>
+            </div>
+
+            <div class="rightCard">
+                <p class="text">
+                    1. 能夠作出一個實際的作品<br>
+                    2. 學習新的語言<br>
+                    3. 培養出對於程式的興趣<br>
+                </p>
+            </div>
+        </div>
     </body>
-
 </html>
